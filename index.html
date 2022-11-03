@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="max.png" type="image/x-icon" />
+    <link rel="icon" href="max.png" type="image/x-icon" />
     <title>Max Shkorupa | Frontend Web Developer</title>
     <meta name="description" content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product" />
     <meta name="author" content="Max Shkorupa" />
@@ -21,9 +21,11 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://i.ibb.co/C8Wnkrt/pretty-snap-2022-3-29-16-11.png" />
     <!-- <link href='https://d33wubrfki0l68.cloudfront.net/css/134159683fc0e467a64ae99e3aa3783a3daaf7e2/css/style.css' rel='stylesheet' /> -->
-    <link href='style.css' rel='stylesheet' />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href='css/style.css' rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD9ESD1D9K"></script> -->
@@ -148,11 +150,13 @@
                         <div class="skills__skill">LESS</div>
                         <!-- <div class="skills__skill">GIT</div> -->
                         <div class="skills__skill">Github</div>
+                        <div class="skills__skill">Github Pages</div>
                         <div class="skills__skill">Responsive Design</div>
                         <div class="skills__skill">BEM</div>
                         <div class="skills__skill">PUG</div>
                         <div class="skills__skill">GULP</div>
                         <div class="skills__skill">FlexBox</div>
+                        <div class="skills__skill">Surge</div>
                         <!-- <div class="skills__skill">Stylus</div> -->
                         <!-- <div class="skills__skill">SEO</div> -->
                         <!-- <div class="skills__skill">Terminal</div> -->
@@ -168,194 +172,473 @@
     </section>
     <section id="projects" class="projects sec-pad">
         <div class="main-container">
-            <h2 class="heading heading-sec heading-sec__mb-bg heading--no-margin">
+            <h2 class="heading heading-sec heading-sec__mb-bg">
                 <span class="heading-sec__main">Projects</span>
-                <span class="heading-sec__sub">
-                    Here you will find some of the personal and clients projects that I
-                    created
-                </span>
+                <span class="heading-sec__sub">Here you will find some of the personal and clients projects that I created</span>
             </h2>
-            <p class="projects__row-info projects__row-info--mt">Long time I worked with a largest company providing telecommunications, digital and media services.</p>
-            <p class="projects__row-info">For example projects for MTS company <img src="mts.svg"></p>
-            <div class="projects__row-flex">
+            <div class="projects__row-flex projects__row-flex--ais">
               <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <img src="portfolio/mts-flash.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
+                  <div class="projects__row-image">
+                    <a data-fancybox="gallery" href="portfolio/petCABINET_full.jpg">
+                      <img src="portfolio/petCABINET.jpg" alt="Project" loading="lazy" />
+                    </a>
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Pages</span>
+                      <span class="btn btn--med btn--theme-inv">Site</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <img src="portfolio/mts-crm.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
+                  <div class="projects__row-image">
+                    <a data-fancybox="gallery" href="portfolio/g-point_full.jpg">
+                      <img src="portfolio/g-point.jpg" alt="Project" loading="lazy" />
+                    </a>
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Pages</span>
+                      <span class="btn btn--med btn--theme-inv">Site</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <img src="portfolio/mts-crm2.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
+                  <div class="projects__row-image">
+                    <a data-fancybox="gallery" href="portfolio/petCRM.jpg">
+                      <img src="portfolio/petCRM.jpg" alt="Project" loading="lazy" />
+                    </a>
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Pages</span>
+                      <span class="btn btn--med btn--theme-inv">Site</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <img src="portfolio/mts-hr-new.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
+                  <div class="projects__row-image">
+                    <a data-fancybox="gallery" href="portfolio/cytamins_full.jpg">
+                      <img src="portfolio/cytamins.jpg" alt="Project" loading="lazy" />
+                    </a>
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Pages</span>
+                      <span class="btn btn--med btn--theme-inv">Site</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="projects__row-el">
+              <!-- <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <img src="portfolio/mts-hr.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
+                  <div class="projects__row-image">
+                    <img src="portfolio/mts-flash.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show Project</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="projects__row-el">
+              </div> -->
+              <!-- <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <img src="portfolio/mts-intro.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
+                  <div class="projects__row-image">
+                    <img src="portfolio/cytamins.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="projects__row-el">
+              </div> -->
+              <!-- <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <img src="portfolio/mts-stazh.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
+                  <div class="projects__row-image">
+                    <img src="portfolio/epivak.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="projects__row-el">
+              </div> -->
+              <!-- <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <img src="portfolio/mts-test.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
+                  <div class="projects__row-image">
+                    <img src="portfolio/futurecommerce.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/g-point.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/lookport.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/minisol.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/mts-crm.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/mts-crm2.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/mts-hr-new.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/mts-hr.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/mts-intro.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/mts-stazh.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/mts-test.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/nvision.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/prostatex.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/TN-arendex.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/TN-decoart.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/TN-hauberk.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/TN-krovlya.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/TN-luch.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/TN-siding.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/TN-simsim.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/TN-vodostok.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/top4smm.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="projects__row-el">
+                <div class="projects__row-item">
+                  <div class="projects__row-image">
+                    <img src="portfolio/valenta.webp" alt="Project" loading="lazy" />
+                  </div>
+                  <div class="projects__row-info">
+                    <p class="title">Project title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="projects__row-buttons">
+                      <span class="btn btn--med btn--theme">Show More</span>
+                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
             </div>
-            <p class="projects__row-info projects__row-info--mt">A lot of sites made for TECHNONICOL, its largest company, manufacturer of roofing, waterproofing and heat-insulating materials. TECHNONICOL it's giant in these directions. <img src="technonikol.svg"></p>
-            <div class="projects__row-flex">
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/TN-vodostok.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/TN-siding.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/TN-krovlya.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/TN-hauberk.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="projects__row-flex">
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/cytamins.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/epivak.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/futurecommerce.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/g-point.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/lookport.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/minisol.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/nvision.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/petCABINET.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/petCRM.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/prostatex.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/TN-arendex.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/TN-decoart.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/TN-luch.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/TN-simsim.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/top4smm.webp" alt="Project" loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-              <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <img src="portfolio/valenta.webp" alt="Project"x loading="lazy" />
-                  <span class="btn btn--med btn--theme">Show More</span>
-                </div>
-              </div>
-            </div>
-        </div>
+          </div>
     </section>
-    
     <section id="contact" class="contact sec-pad dynamicBg">
         <div class="main-container">
             <h2 class="heading heading-sec heading-sec__mb-med">
@@ -421,7 +704,8 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="scripts.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- <script src='https://d33wubrfki0l68.cloudfront.net/js/96f5c0d4b9bdbf07570efd8e94cb7db7a5191a01/index.js'></script> -->
     <!-- <script src="https://code.tidio.co/hkirvl5pqs5cjjawh11xutnzjgtg9tfi.js" async></script> -->
 </body>
