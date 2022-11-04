@@ -10,25 +10,18 @@
     <title>Max Shkorupa | Frontend Web Developer</title>
     <meta name="description" content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product" />
     <meta name="author" content="Max Shkorupa" />
-    <!-- <meta
-      name="google-site-verification"
-      content="wX2xdkxqjrC4rA2EM-9bbaVpiEEFG8ae5azgeZDd-oo"
-    /> -->
     <meta property="og:title" content="Max Shkorupa | Frontend Web Developer" />
     <meta property="og:site_name" content="Max Shkorupa Portfolio Website" />
     <!-- <meta property="og:url" content="https://www.rammaheshwari.com/" /> -->
     <meta property="og:description" content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://i.ibb.co/C8Wnkrt/pretty-snap-2022-3-29-16-11.png" />
-    <!-- <link href='https://d33wubrfki0l68.cloudfront.net/css/134159683fc0e467a64ae99e3aa3783a3daaf7e2/css/style.css' rel='stylesheet' /> -->
+    <meta property="og:image" content="share.png" />
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="css/jquery.fancybox.min.css" rel="stylesheet" />
     <link href='css/style.css' rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD9ESD1D9K"></script> -->
 </head>
 
 <body>
@@ -57,34 +50,12 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="header__sm-menu">
-            <div class="header__sm-menu-content">
-                <ul class="header__sm-menu-links">
-                    <li class="header__sm-menu-link">
-                        <a href="index.html"> Home </a>
-                    </li>
-                    <li class="header__sm-menu-link">
-                        <a href="index.html#about"> About </a>
-                    </li>
-                    <li class="header__sm-menu-link">
-                        <a href="index.html#projects"> Projects </a>
-                    </li>
-                    <li class="header__sm-menu-link">
-                        <a href="index.html#contact"> Contact </a>
-                    </li>
-                </ul>
-            </div>
-        </div> -->
     </header>
     <section class="home-hero" id="main">
         <div class="home-hero__content">
             <h1 class="heading-primary">Hey, My name is Max</h1>
             <div class="home-hero__info">
-                <p class="text-primary">
-                    And I'm Frontend developer who focused Web Developer building the Frontend of Websites
-                    and Web Applications that leads to the success of the overall
-                    product
-                </p>
+                <p class="text-primary">And I'm Frontend developer who focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
             </div>
             <div class="home-hero__cta">
                 <a href="index.html#projects" class="btn btn--bg">Projects</a>
@@ -93,12 +64,12 @@
         <div class="home-hero__socials">
             <div class="home-hero__social">
                 <a href="https://github.com/max197a" class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
-                    <img src="github-dark.svg" alt="Max197a Github Profile" class="home-hero__social-icon" />
+                    <img src="images/github-dark.svg" alt="Max197a Github Profile" class="home-hero__social-icon" />
                 </a>
             </div>
             <div class="home-hero__social">
                 <a href="google.com" class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
-                    <img src="telegram-dark.svg" alt="Max Telegram" class="home-hero__social-icon" />
+                    <img src="images/telegram-dark.svg" alt="Max Telegram" class="home-hero__social-icon" />
                 </a>
             </div>
         </div>
@@ -110,10 +81,7 @@
         <div class="main-container">
             <h2 class="heading heading-sec heading-sec__mb-med">
                 <span class="heading-sec__main">About Me</span>
-                <span class="heading-sec__sub">
-                    Here you will find more information about me, what I do, and my
-                    current skills mostly in terms of programming and technology
-                </span>
+                <span class="heading-sec__sub">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</span>
             </h2>
             <div class="about__content">
                 <div class="about__content-main">
@@ -172,470 +140,386 @@
     </section>
     <section id="projects" class="projects sec-pad">
         <div class="main-container">
-            <h2 class="heading heading-sec heading-sec__mb-bg">
+            <h2 class="heading heading-sec heading-sec__mb-med">
                 <span class="heading-sec__main">Projects</span>
                 <span class="heading-sec__sub">Here you will find some of the personal and clients projects that I created</span>
             </h2>
             <div class="projects__row-flex projects__row-flex--ais">
               <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <a data-fancybox="gallery" href="portfolio/petCABINET_full.jpg">
-                      <img src="portfolio/petCABINET.jpg" alt="Project" loading="lazy" />
-                    </a>
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/petCRM.webp">
+                    <img src="images/projects/petCRM.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">Growth.pet CRM</p>
+                    <p>CRM for manage pet grooming salons</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Pages</span>
-                      <span class="btn btn--med btn--theme-inv">Site</span>
+                      <a href="https://petadm.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="https://valentaflowers.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
               </div>
               <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <a data-fancybox="gallery" href="portfolio/g-point_full.jpg">
-                      <img src="portfolio/g-point.jpg" alt="Project" loading="lazy" />
-                    </a>
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/petCABINET_full.webp">
+                    <img src="images/projects/petCABINET.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">Growth.pet cabinet</p>
+                    <p>Personal cabinet for edit client site</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Pages</span>
-                      <span class="btn btn--med btn--theme-inv">Site</span>
+                      <a href="http://pet-cabinet.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="https://valentaflowers.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
               </div>
               <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <a data-fancybox="gallery" href="portfolio/petCRM.jpg">
-                      <img src="portfolio/petCRM.jpg" alt="Project" loading="lazy" />
-                    </a>
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/g-point_full.webp">
+                    <img src="images/projects/g-point.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">G-Point hr</p>
+                    <p>Project for people who lose work and home after russian invasion in Ukraine (only for groomers)</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Pages</span>
-                      <span class="btn btn--med btn--theme-inv">Site</span>
+                      <a href="https://g-point.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://g-hr.growth.pet/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <a data-fancybox="gallery" href="portfolio/cytamins_full.jpg">
-                      <img src="portfolio/cytamins.jpg" alt="Project" loading="lazy" />
-                    </a>
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/cytamins_full.webp">
+                    <img src="images/projects/cytamins.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">Cytamins</p>
+                    <p>Individual search and consulting about biologically active supplements</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Pages</span>
-                      <span class="btn btn--med btn--theme-inv">Site</span>
+                      <a href="https://cytamins.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://cytamins.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/mts-flash.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/epivak_full.webp">
+                    <img src="images/projects/epivak.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
                     <p class="title">Project title</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show Project</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://valentaflowers.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://valentaflowers.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
               </div> -->
-              <!-- <div class="projects__row-el">
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/cytamins.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/TN-vodostok_full.webp">
+                    <img src="images/projects/TN-vodostok.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">TN Vodostok</p>
+                    <p>Сatalog and information about drainage systems and soffits</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="http://tn-vodostok.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://tn-vodostok.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/epivak.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/TN-siding_full.webp">
+                    <img src="images/projects/TN-siding.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">TN Siding</p>
+                    <p>Siding and soffits</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://tn-siding.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://tn-siding.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/futurecommerce.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/TN-hauberk_full.webp">
+                    <img src="images/projects/TN-hauberk.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">TN Hauberk</p>
+                    <p>Facade tile HAUBERK</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://tn-hauberk.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://tn-hauberk.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/g-point.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/TN-krovlya_full.webp">
+                    <img src="images/projects/TN-krovlya.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">TN Krovlya</p>
+                    <p>Flexible shingles for roof</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://tn-krovlya.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="#" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/lookport.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/TN-luch_full.webp">
+                    <img src="images/projects/TN-luch.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">LUCH</p>
+                    <p>Site of architect bureau and interiors</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://luch-site.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="https://valentaflowers.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/minisol.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/TN-decoart_full.webp">
+                    <img src="images/projects/TN-decoart.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">Deco Art</p>
+                    <p>Design interiors and exteriors</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://decoart-site.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="#" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/mts-crm.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/TN-arendex_full.webp">
+                    <img src="images/projects/TN-arendex.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">Arendex</p>
+                    <p>Special equipment rental service</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://arendex.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://arendex.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/mts-crm2.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/top4smm_full.webp">
+                    <img src="images/projects/top4smm.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">Top4SMM</p>
+                    <p>SMM Panel for promotion your media services</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://top4smm.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://top4smm.com/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/mts-hr-new.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/mts-test_full.webp">
+                    <img src="images/projects/mts-test.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">MTS Testing</p>
+                    <p>Service for find bugs and testing of MTS products</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://mtstest.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://betatesting.mts.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/mts-hr.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/mts-intro_full.webp">
+                    <img src="images/projects/mts-intro.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">MTS Internship</p>
+                    <p>MTS Intro - service for the selection of internships</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <!-- <a href="https://valentaflowers.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a> -->
+                      <a href="https://job.mts.ru/internship" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/mts-intro.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/mts-flash_full.webp">
+                    <img src="images/projects/mts-flash.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">MTS Intro</p>
+                    <p>Landing page MTS Intro project</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://mts-flash.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="#" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/mts-stazh.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/mts-crm.webp">
+                    <img src="images/projects/mts-crm.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">MTS CRM</p>
+                    <p>CRM for manage and editable client startups in MTS ecosystem</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://mtscrm.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="https://valentaflowers.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/mts-test.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/mts-crm2.webp">
+                    <img src="images/projects/mts-crm2.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">MTS CRM for partners</p>
+                    <p>CRM for manage and editable client startups in MTS ecosystem for partners</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://mtscrm-partner.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="https://valentaflowers.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/nvision.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/mts-vacancies.webp">
+                    <img src="images/projects/mts-vacancies.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">MTS Vacancies</p>
+                    <p>Job search service</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://valentaflowers.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://valentaflowers.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/prostatex.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/nvision_full.webp">
+                    <img src="images/projects/nvision.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">NVISION</p>
+                    <p>One of the directions of the giant company Sitronics in the field of IT and telecommunications</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://nvision.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <!-- <a href="#" target="_blank" class="btn btn--med btn--theme-inv">Site</a> -->
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/TN-arendex.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/simsim_full.webp">
+                    <img src="images/projects/simsim.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">SimSim</p>
+                    <p>Project for pass office automation</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://simsim.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://www.simsimapp.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/TN-decoart.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/polimerbit_full.webp">
+                    <img src="images/projects/polimerbit.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">Polimerbyt</p>
+                    <p>Polimerbyt is a manufacturer of plastic products for a comfortable life</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://polimerb2c.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://www.polimerbyt.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/TN-hauberk.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/cryogas_full.webp">
+                    <img src="images/projects/cryogas.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">CryoGas</p>
+                    <p>CryoGas is engaged in the production, delivery and sale of liquefied natural gas (LNG) for various consumers</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <!-- <a href="#" target="_blank" class="btn btn--med btn--theme">Pages</a> -->
+                      <a href="https://cryogas.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/TN-krovlya.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/lookport_full.webp">
+                    <img src="images/projects/lookport.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">Lookport</p>
+                    <p>VR-streaming service</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://lookport2.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://lookport.live/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
+              </div>
+              <div class="projects__row-el">
                 <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/TN-luch.webp" alt="Project" loading="lazy" />
-                  </div>
+                  <a class="projects__row-image" data-fancybox="gallery" href="images/projects/valenta_full.webp">
+                    <img src="images/projects/valenta.webp" alt="Project" loading="lazy" />
+                  </a>
                   <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="title">valentaflowers</p>
+                    <p>Flower shop</p>
                     <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
+                      <a href="https://valentaflowers.surge.sh/" target="_blank" class="btn btn--med btn--theme">Pages</a>
+                      <a href="https://valentaflowers.ru/" target="_blank" class="btn btn--med btn--theme-inv">Site</a>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/TN-siding.webp" alt="Project" loading="lazy" />
-                  </div>
-                  <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/TN-simsim.webp" alt="Project" loading="lazy" />
-                  </div>
-                  <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/TN-vodostok.webp" alt="Project" loading="lazy" />
-                  </div>
-                  <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/top4smm.webp" alt="Project" loading="lazy" />
-                  </div>
-                  <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!-- <div class="projects__row-el">
-                <div class="projects__row-item">
-                  <div class="projects__row-image">
-                    <img src="portfolio/valenta.webp" alt="Project" loading="lazy" />
-                  </div>
-                  <div class="projects__row-info">
-                    <p class="title">Project title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    <div class="projects__row-buttons">
-                      <span class="btn btn--med btn--theme">Show More</span>
-                      <span class="btn btn--med btn--theme-inv">Go to Site</span>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
+              </div>
             </div>
           </div>
     </section>
@@ -643,10 +527,7 @@
         <div class="main-container">
             <h2 class="heading heading-sec heading-sec__mb-med">
                 <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-                <span class="heading-sec__sub heading-sec__sub--lt">
-                    Feel free to Contact me by submitting the form below and I will get
-                    back to you as soon as possible
-                </span>
+                <span class="heading-sec__sub heading-sec__sub--lt">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
             </h2>
             <div class="contact__form-container">
                 <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
@@ -662,9 +543,7 @@
                         <label class="contact__form-label" for="message">Message</label>
                         <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
                     </div>
-                    <button type="submit" class="btn btn--theme contact__btn">
-                        Submit
-                    </button>
+                    <button type="submit" class="btn btn--theme contact__btn">Submit</button>
                 </form>
             </div>
         </div>
@@ -678,20 +557,16 @@
                     </h2>
                     <div class="main-footer__social-cont">
                         <a target="_blank" rel="noreferrer" href="https://github.com/max197a">
-                            <img class="main-footer__icon" src="github-white.svg" alt="Max197a Github Profile" />
+                            <img class="main-footer__icon" src="images/github-white.svg" alt="Max197a Github Profile" />
                         </a>
                         <a target="_blank" rel="noreferrer" href="google.com">
-                            <img class="main-footer__icon" src="telegram-white.svg" alt="Max Telegram" />
+                            <img class="main-footer__icon" src="images/telegram-white.svg" alt="Max Telegram" />
                         </a>
                     </div>
                 </div>
                 <div class="main-footer__row main-footer__row-2">
                     <h2 class="heading heading-sm text-lt">Max Shkorupa</h2>
-                    <p class="main-footer__short-desc">
-                        A Frontend focused Web Developer building the Frontend of Websites
-                        and Web Applications that leads to the success of the overall
-                        product
-                    </p>
+                    <p class="main-footer__short-desc">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
                 </div>
             </div>
             <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
@@ -706,8 +581,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- <script src='https://d33wubrfki0l68.cloudfront.net/js/96f5c0d4b9bdbf07570efd8e94cb7db7a5191a01/index.js'></script> -->
-    <!-- <script src="https://code.tidio.co/hkirvl5pqs5cjjawh11xutnzjgtg9tfi.js" async></script> -->
 </body>
 
 </html>
