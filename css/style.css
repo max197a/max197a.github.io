@@ -505,6 +505,7 @@ textarea {
     width: 30%;
     padding: 2rem 4rem;
     font-size: 1.6rem;
+    border: none;
 }
 @media only screen and (max-width: 37.5em) {
     .contact__btn {
@@ -1104,4 +1105,28 @@ textarea {
 
 .fancybox-content {
     max-width: 100% !important;
+}
+
+.success__msg {
+    display: none;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid green;
+    background: #dcffdc;
+    margin-top: 2rem;
+}
+
+.fail__msg {
+    display: none;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid red;
+    background: #fcc;
+    margin-top: 2rem;
 }

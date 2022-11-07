@@ -530,21 +530,24 @@
                 <span class="heading-sec__sub heading-sec__sub--lt">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
             </h2>
             <div class="contact__form-container">
-                <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
+                <form action='mail.php' class='contact__form' method='post'>
+                    <input type="hidden" name="subject" value="Portfolio Form">
                     <div class="contact__form-field">
                         <label class="contact__form-label" for="name">Name</label>
-                        <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name" />
+                        <input placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" required/>
                     </div>
                     <div class="contact__form-field">
                         <label class="contact__form-label" for="email">Email</label>
-                        <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email" id="email" />
+                        <input placeholder="Enter Your Email" type="email" class="contact__form-input" name="email" required/>
                     </div>
                     <div class="contact__form-field">
                         <label class="contact__form-label" for="message">Message</label>
-                        <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
+                        <textarea placeholder="Enter Your Message" cols="30" rows="10" class="contact__form-input" name="message" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn--theme contact__btn">Submit</button>
+                    <input name="submit" type="submit" class="btn btn--theme contact__btn" value="Send Form">
                 </form>
+                <div class="success__msg">Thank You! Your message has been sent.</div>
+                <div class="fail__msg">Oops! Something went wrong, we couldn't send your message.</div>
             </div>
         </div>
     </section>
