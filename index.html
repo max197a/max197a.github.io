@@ -97,10 +97,7 @@
                         <p class="about__content-details-para">From <strong>2017</strong> to <strong>february 2022</strong> had outsource work.</p>
                         <!-- <p class="about__content-details-para">When war is come in Ukraine i stopped the work and make some humanitarian help, but now i want to resume working.</p> -->
                         <p class="about__content-details-para">
-                            I'm open to <strong>Job</strong> opportunities where I can
-                            contribute, learn and grow. If you have a good opportunity that
-                            matches my skills and experience then don't hesitate to
-                            <strong>contact</strong> me.
+                            I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience, then I will be happy to take part in your project
                         </p>
 
                     </div>
@@ -585,13 +582,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- <script src="google-form.js"></script> -->
     <script>
         var form = document.getElementById("my-form");
         
         async function handleSubmit(event) {
           event.preventDefault();
-          // var status = document.getElementById("my-form-status");
           var data = new FormData(event.target);
           fetch(event.target.action, {
             method: form.method,
@@ -601,7 +596,6 @@
             }
           }).then(response => {
             if (response.ok) {
-              // status.innerHTML = "Thanks for your submission!";
               $('.success__msg').fadeIn();
               setTimeout(function() {
                   $('.success__msg').fadeOut();
